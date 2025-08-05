@@ -286,6 +286,8 @@ nav {
   -webkit-backdrop-filter: blur(14px) saturate(180%);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   transition: background 0.3s ease, box-shadow 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Optional hover or scroll effect (e.g., darker background on scroll) */
@@ -305,6 +307,8 @@ nav.scrolled {
   position: sticky;
   top: 0;
   z-index: 1000;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Hide navbar by moving it up */
@@ -328,6 +332,8 @@ nav.scrolled {
   font-weight: 700;
   color: var(--white);
   text-decoration: none;
+   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* ==== HAMBURGER MENU BUTTON ==== */
@@ -385,12 +391,16 @@ nav.scrolled {
   border-radius: 0 0 14px 14px;
   transition: max-height 0.5s ease, padding 0.5s ease;
   z-index: 999;
+   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Open mobile nav menu */
 .nav__links.open {
   max-height: 400px; /* Adjust as needed */
   padding: 2rem 1.5rem;
+   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* ==== NAV LINK STYLES ==== */
@@ -399,11 +409,15 @@ nav.scrolled {
   font-weight: 600;
   font-size: 1rem;
   text-decoration: none;
+   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .nav__links a:hover,
 .nav__links a:focus {
   color: var(--white);
+   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 @media screen and (min-width: 768px) {
@@ -2317,6 +2331,7 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
+
 
 
 
