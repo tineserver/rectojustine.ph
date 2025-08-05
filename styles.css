@@ -1273,12 +1273,14 @@ header {
     transition: transform 0.3s ease;
     transform-origin: center;
     cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: transparent;
    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .carousel img:hover {
     transform: scale(var(--hover-scale));
+   -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Skill Label Styling */
@@ -1290,7 +1292,7 @@ header {
     font-size: var(--font-size);
     text-transform: uppercase;
     text-align: center;
-  -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: transparent;
    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -1299,13 +1301,13 @@ header {
     .carousel img {
         width: calc(25% - var(--image-gap));
       -webkit-tap-highlight-color: transparent;
-   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     .carousel .skill {
         width: calc(22% - var(--image-gap));
       -webkit-tap-highlight-color: transparent;
-   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 }
 
@@ -2354,6 +2356,7 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
+
 
 
 
