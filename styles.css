@@ -348,6 +348,8 @@ nav.scrolled {
   border: 2px solid var(--white); /* visible border */
   border-radius: 6px; /* optional: rounded corners */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* optional: subtle shadow */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .nav__menu__btn i {
@@ -2309,6 +2311,7 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
+
 
 
 
