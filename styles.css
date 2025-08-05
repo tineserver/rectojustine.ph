@@ -26,13 +26,28 @@
 }
 
 
+/* Remove focus outline on touch devices (mobile) */
 a:focus,
-a:active,
-*:focus {
-  outline: none !important;
-  box-shadow: none !important;
-  -webkit-tap-highlight-color: transparent;
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: none;
 }
+
+/* Optionally, only remove outline for non-keyboard users */
+@media (pointer: coarse) {
+  a:focus,
+  button:focus,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
 
 *,
 *::before,
@@ -2296,7 +2311,6 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
-
 
 
 
