@@ -288,6 +288,7 @@ nav {
   transition: background 0.3s ease, box-shadow 0.3s ease;
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
 }
 
 /* Optional hover or scroll effect (e.g., darker background on scroll) */
@@ -314,6 +315,8 @@ nav.scrolled {
 /* Hide navbar by moving it up */
 .nav__bar.hide {
   transform: translateY(-100%);
+   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 
@@ -324,6 +327,8 @@ nav.scrolled {
   font-size: 1.2rem;
   color: var(--white);
   font-weight: 700;
+   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* ==== NAV LINKS - INLINE LINKS (DESKTOP) ==== */
@@ -438,11 +443,15 @@ nav.scrolled {
     box-shadow: none;
     border-radius: 0;
     justify-content: flex-end;
+     -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 
   .nav__links.open {
     max-height: none;
     padding: 0;
+     -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 }
 
@@ -459,6 +468,8 @@ nav.scrolled {
   z-index: 1000;
   display: flex;              /* Ensures child alignment */
   justify-content: flex-start; /* Align children (like .nav-menu) to the left */
+   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Desktop Navigation */
@@ -470,6 +481,8 @@ nav.scrolled {
   list-style: none;
   flex-wrap: wrap;
   margin: 0;                   /* Ensure no default margin is affecting layout */
+   -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .nav-menu li {
@@ -2331,6 +2344,7 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
+
 
 
 
