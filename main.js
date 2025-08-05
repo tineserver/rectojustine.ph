@@ -180,3 +180,13 @@ document.addEventListener("click", (e) => {
         sideContactForm.style.display = isOpen ? "none" : "block";
         toggleContactFormBtn.setAttribute("aria-expanded", !isOpen);
     });
+
+// Remove focus outline after click/tap on interactive elements (links, buttons, inputs)
+document.addEventListener("click", function (e) {
+  const tag = e.target.tagName.toLowerCase();
+  if (["a", "button", "input", "textarea"].includes(tag)) {
+    e.target.blur();
+  }
+}, true);
+
+.
