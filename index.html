@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <title>Justine Recto | IS Student</title></head>
+<body>
+s
+    <!-- ======= NavBar ======= -->
+    <div class="container" id="home">
+        <nav>
+            <div class="nav__bar">
+                <a href="#">
+                    <span><i class="fa-solid fa-code"></i> COZIESTINE |</span>
+                    <span class="gradient-color">UI</span>
+                </a>
+                <button id="mobileNavToggle" class="nav__menu__btn"><i class="ri-menu-unfold-4-fill"></i></button>
+
+            </div>
+            <a href="#" class="btn btn__large" id="getStartedBtn">Get Started</a>
+        </nav>
+    </div>
+    <!-- End NavBar -->
+
+        <!-- Remove dropdown arrow from close button -->
+        <nav id="sideNav" class="side-nav" aria-label="Contact Form Sidebar">
+                <button id="closeBtn" aria-label="Close Navigation"><i class="ri-close-fill"></i></button>
+                <form action="https://formspree.io/f/xnnzbnnw" method="POST" class="responsive-contact-form">
+            <h2>Contact Me</h2>
+            <p class="paragraph">
+                    For inquiries, collaborations, or project proposals, please use the form below to get in touch.
+                    Alternatively,
+                    you may contact me directly at <br> <a href="mailto:rectojusttine84@gmail.com">rectojusttine84@gmail.com</a>.
+                </p>
+
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="2" placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+            </form>
+        </nav>
+  
+            <!-- Floating Nav Button -->
+        <div class="floating-nav">
+        <button class="floating-btn" id="floatingNavBtn">
+            <i class="ri-add-large-fill"></i>
+        </button>
+        <div class="floating-menu" id="floatingMenu">
+            <a href="#home"><i class="ri-home-2-line"></i></a>
+            <a href="#about"><i class="ri-user-line"></i></a>
+            <a href="#resume"><i class="ri-file-list-3-line"></i></a>
+            <a href="#services"><i class="ri-service-line"></i></a>
+            <a href="#portfolio"><i class="ri-briefcase-line"></i></a>
+            <a href="#contact"><i class="ri-mail-line"></i></a>
+        </div>
+    </div>
+
+    <div id="mobileNavOverlay"></div>    <!-- End Mobile Sidebar -->
+
+    <!-- ======= Header ======= -->
+    <header class="section__container header__container" id="home">
+        <div class="header__image">
+            <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+            <div>
+                <h1>
+                    <span class="white-text">Hello There I’m</span>
+                    <span class="gradient-color">Justine Recto</span>
+                    <span class="white-text"><br>Programmer</span>
+                </h1>
+                <p class="section__description">
+                    <span class="white-text">Aspiring</span>
+                    <span class="gradient-color" id="typewriter"></span>
+                    <span class="white-text">from the Philippines.</span>
+                </p>
+            </div>
+           
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= About Section ======= -->
+    <section class="containers align-section section__container portfolio__container" id="about">
+        <header>
+            <div class="section-title">
+                <h2>Get To Know Me!</h2>
+            </div>
+            <h2 class="section_text">ABOUT ME</h2>
+        </header>
+        <div class="photos">
+            <img src="assets/img-2.jpg" alt="Photo of Justine" />
+        </div>
+        <div class="contents">
+            <h2 class="title-highlight gradient-color">IS Student | Aspiring Developer</h2>
+            <p class="intro">
+                Hello, I am Justine Recto, an Information Systems student passionate about technology, data, and innovation.
+            </p>
+            <div class="info">
+                <div class="info-column">
+                    <p class="info-item"><i class="ri-phone-line gradient-color"></i><strong>Phone:</strong><span> +63 967-301-6724</span></p>
+                    <p class="info-item"><i class="ri-map-pin-line gradient-color"></i><strong>City:</strong><span> San Pablo City, Laguna</span></p>
+                    <p class="info-item"><i class="ri-apps-2-ai-line gradient-color"></i><strong>Freelance:</strong><span> Coding | Photo / Video Editing</span></p>
+                </div>
+                <div class="info-column">
+                    <p class="info-item"><i class="ri-graduation-cap-line gradient-color"></i><strong>Course:</strong><span> BSIS-Project Management</span></p>
+                    <p class="info-item"><i class="ri-mail-line gradient-color"></i><strong>Email:</strong><span> rectojusttine84@gmail.com</span></p>
+                </div>
+            </div>
+            <div class="desc">
+                <p>
+                    I'm a passionate web developer with a strong eye for design and a love for coding. My journey began with a deep interest in how things look and work online. Over time, I turned that passion into a career focused on building websites that are both practical and visually appealing.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End About Me -->
+
+    <!-- ======= Skills  ======= -->
+    <section class="section__container portfolio__container" id="about">
+        <div class="skills container">
+            <div class="section-title">
+                <h2>Skills</h2>
+            </div>
+            <div class="row">
+                <div class="carousel">
+                    <img src="assets/img/html.png" alt="HTML" class="skill-img">
+                    <img src="assets/img/css.png" alt="CSS" class="skill-img">
+                    <img src="assets/img/js.png" alt="JavaScript" class="skill-img">
+                    <img src="assets/img/bootstrap.png" alt="Bootstrap" class="skill-img">
+                    <img src="assets/img/php.png" alt="PHP" class="skill-img">
+                    <img src="assets/img/canva.png" alt="Canva" class="skill-img">
+                    <img src="assets/img/mysql.png" alt="MySQL" class="skill-img">
+                    <img src="assets/img/java.png" alt="Java" class="skill-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Skills -->
+
+    <!-- ======= Interests  ======= -->
+    <section class="section__container portfolio__container" id="about">
+        <div class="section-title">
+            <h2>Interests</h2>
+        </div>
+        <div class="container_hobbies">
+            <div class="card movie"><i class="fa-solid fa-film"></i> Watching Movies</div>
+            <div class="card wifi"><i class="fa-solid fa-ethernet"></i> Browsing Internet</div>
+            <div class="card game"><i class="fa-solid fa-gamepad"></i> Online Games</div>
+            <div class="card music"><i class="fa-brands fa-spotify"></i> Listening to Music</div>
+            <div class="card photo"><i class="fa-solid fa-palette"></i> Photo Editing</div>
+            <div class="card programming"><i class="fa-solid fa-laptop-code"></i> Programming</div>
+            <div class="card tv"><i class="fa-solid fa-tv"></i> Watching Television</div>
+            <div class="card video"><i class="fa-solid fa-film"></i> Videography</div>
+            <div class="card map"><i class="fa-solid fa-map-location-dot"></i> Traveling</div>
+            <div class="card food"><i class="fa-solid fa-utensils"></i> Food Lover</div>
+            <div class="card yt"><i class="fa-brands fa-youtube"></i> Watching YouTube</div>
+            <div class="card tech"><i class="fa-solid fa-microchip"></i> Tech Enthusiast</div>
+        </div>
+    </section>
+    <!-- End Interests -->
+
+    <!-- ======= Resume Section ======= -->
+    <section class="education-section section__container portfolio__container" id="resume">
+        <div class="section-title">
+            <h2>Education</h2>
+        </div>
+        <h2 class="section_text">Academics & Experiences</h2>
+        <div class="education-container">
+            <!-- Academic Records Column -->
+            <div class="column">
+                <h3>Academic Records</h3>
+                <div class="item">
+                    <div class="resume-item">
+                        <h4>San Pablo Integrated High School</h4>
+                        <span class="year">2020 – 2023</span>
+                        <p><em>Electronic Products Assembly & Servicing</em></p>
+                        <ul>
+                            <li>Graduated</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="resume-item">
+                        <h4>Crescencia Drucila Lopez Senior High School</h4>
+                        <span class="year">2024 – 2025</span>
+                        <p><em>ICT - Net Technology, Java, Oracle Database</em></p>
+                        <ul>
+                            <li>Computer System Servicing NC 2</li>
+                            <li>Graduated with Honors</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Experience Column -->
+            <div class="column">
+                <h3>Experience | Internship</h3>
+                <div class="item">
+                    <div class="resume-item">
+                        <h4>SafeRoads.Ph</h4>
+                        <span class="year">February 2025</span>
+                        <p><em>Front End Developer</em></p>
+                        <ul>
+                            <li>Completed 180 hours On the Work Immersion</li>
+                            <li>Learn Angular - Framework</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="resume-item">
+                        <h4>The Big Five Training and Assessment Center</h4>
+                        <span class="year">February 28 - March 1, 2025</span>
+                        <p><em>Computer System Servicing NC 2</em></p>
+                        <ul>
+                            <li>Completed JDVP 80 hours On the The Big Five Training and Assessment Center </li>
+                            <li>Assemble and Disassemble installing, configuring, and maintaining computer systems and networks.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section-title">
+            <h2>Certificates</h2>
+        </div>
+        <h2 class="section_text">My Certifications</h2>
+        <div>
+            
+             <div class>
+               <a href="https://www.credly.com/badges/3e3e78b8-29a6-4198-a75c-e1c26d1a2aed/public_url" target="_blank">
+                <img 
+                    src="assets/introduction-to-cybersecurity.png" 
+                    alt="Cybersecurity Badge" 
+                    style="height: 270px; width: auto; display: block; image-rendering: auto;">
+                </a>
+                </div>
+
+                <br>
+                  <br>
+
+            <div class="badges-container">
+            <div class="column">
+                <div class="item">
+                    <div class="resume-item">
+                            <li><strong>Introduction to Cybersecurity</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                            <li><strong>Cybersecurity Essentials</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                            <li><strong>Networking Basics</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                            <li><strong>Introduction to Networks (CCNA 1)</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                            <li><strong>Endpoint Security</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="item">
+                    <div class="resume-item">
+                            <li><strong>Cybersecurity Pathway</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                            <li><strong>Cyber Threat Management</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                            <li><strong>Network Security</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                            <li><strong>Introduction to CyberOps</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                            <li><strong>CCNA: Security Fundamentals</strong><br> <em>Cisco Networking Academy, 2025</em></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Resume Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section class="services align-section section__container portfolio__container" id="services">
+        <div class="section-title">
+            <h2>Service</h2>
+        </div>
+        <h2 class="section_text">My Services</h2>
+        <!-- Services Wrapper -->
+        <div class="services-wrapper">
+            <!-- Service Box 1 -->
+            <article class="icon-box" tabindex="0" aria-label="Video Editing Service">
+                <div class="icon" aria-hidden="true">
+                    <i class="ri-video-on-ai-line"></i>
+                </div>
+                <h4><a href="#" tabindex="-1">Video Editing</a></h4>
+                <p>Skilled in basic video editing with Premiere Pro and CapCut, including transitions, cuts, cinematic effects, and montages etc.</p>
+            </article>
+            <!-- Service Box 2 -->
+            <article class="icon-box" tabindex="0" aria-label="Discord Bot Development Service">
+                <div class="icon" aria-hidden="true">
+                    <i class="ri-terminal-window-line"></i>
+                </div>
+                <h4><a href="#" tabindex="-1">Basic Programming Projects</a></h4>
+                <p>Small project in programming. Including website development and related tasks.</p>
+            </article>
+            <!-- Service Box 3 -->
+            <article class="icon-box" tabindex="0" aria-label="Graphic Designing Service">
+                <div class="icon" aria-hidden="true">
+                    <i class="ri-layout-masonry-line"></i>
+                </div>
+                <h4><a href="#" tabindex="-1">Graphic Designing and Photo Editing</a></h4>
+                <p>I can help with various project such as photo editing, annoucement design, logo, poster, and more.</p>
+            </article>
+        </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section class="section__container align-section portfolio__container" id="portfolio">
+        <div class="section-title">
+            <h2>Portfolio</h2>
+        </div>
+        <h2 class="section_text">My Works</h2>
+        <p class="section__description">
+            View a showcase of my various projects that highlight my abilities in
+            web design, development, and other areas. Every project embodies my enthusiasm
+            for producing inventive and powerful digital experiences.
+        </p>
+        <div class="portfolio__grid">
+            <div class="portfolio__card">
+                <img src="assets/img1.png" alt="portfolio" />
+            </div>
+            <div class="portfolio__card">
+                <img src="assets/img2.png" alt="portfolio" />
+            </div>
+            <div class="portfolio__card">
+                <img src="assets/img3.png" alt="portfolio" />
+            </div>
+            <div class="portfolio__card">
+                <img src="assets/img4.png" alt="portfolio" />
+            </div>
+            <div class="portfolio__card">
+                <img src="assets/img5.png" alt="portfolio" />
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section class="contact-section align-section section__container" id="contact">
+        <div class="section-title">
+            <h2>Contact</h2>
+        </div>
+        <h2 class="section_text">Contact Me</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3><i class="ri-map-pin-line gradient-color"></i> Address</h3>
+                <p>San Pablo City, Laguna. PH</p>
+            </div>
+            <div class="contact-card">
+                <h3><i class="ri-mail-line  gradient-color"></i> Email</h3>
+                <p>rectojusttine84@gmail.com</p>
+            </div>
+            <div class="contact-card">
+                <h3><i class="ri-phone-line  gradient-color"></i> Phone Number</h3>
+                <p>+63 967-301-6724</p>
+            </div>
+            <div class="contact-card">
+                <h3><i class="ri-share-forward-line  gradient-color"></i> Social Media</h3>
+                <p>
+                    <a href="#"><i class="ri-facebook-box-line"></i> Facebook</a> |
+                    <a href="#"><i class="ri-instagram-line"></i> Instagram</a>
+                </p>
+            </div>
+            <div class="contact-card ">
+                <h3><i class="ri-github-line gradient-color"></i> Github</h3>
+                <p>Justine @tineserver</p>
+            </div>
+        </div>
+        <form action="https://formspree.io/f/xnnzbnnw" method="POST" class="contact-form">
+            <div class="form-row">
+                <input type="text" name="name" placeholder="Last Name, First Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-row">
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-row">
+                <textarea name="message" placeholder="Message" required></textarea>
+            </div>
+            <div class="form-row">
+                <button type="submit" class="form-button">Send Message</button>
+            </div>
+        </form>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- The Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal"><i class="ri-close-fill"></i></span>
+            <!-- Modal Section -->
+            <section class="contact-wrapper" aria-label="Contact us form container">
+                <h2>CONTACT US</h2>
+                <p class="subheading">
+                    For inquiries, collaborations, or project proposals, please use the form below to get in touch.
+                    Alternatively, <br>
+                    you may contact me directly at <a href="mailto:rectojusttine84@gmail.com">rectojusttine84@gmail.com</a>.
+                </p>
+                <br>
+                <form action="https://formspree.io/f/xnnzbnnw" method="POST" novalidate>
+                    <label class="input-group" for="name-input">
+                        <span class="input-icon" aria-hidden="true" title="Name icon">
+                            <i class="ri-user-line icons"></i>
+                        </span>
+                        <span class="visually-hidden">Name</span>
+                        <input type="text" id="name-input" name="name" placeholder="Name" autocomplete="name" required />
+                    </label>
+                    <label class="input-group" for="email-input">
+                        <span class="input-icon" aria-hidden="true" title="Email icon">
+                            <i class="ri-mail-line icons"></i>
+                        </span>
+                        <span class="visually-hidden">Email</span>
+                        <input type="email" id="email-input" name="email" placeholder="Email Address" autocomplete="email" required />
+                    </label>
+                    <label class="input-group" for="message-input">
+                        <span class="input-icon" aria-hidden="true" title="Message icon">
+                            <i class="ri-discuss-line"></i>
+                        </span>
+                        <span class="visually-hidden">Message</span>
+                        <textarea id="message-input" name="message" placeholder="Type your message here..." required style="height: 40px;"></textarea>
+                    </label>
+                    <button type="submit" aria-label="Send Message">SEND MESSAGE</button>
+                </form>
+            </section>
+
+    <!-- Template Main Get Started File-->    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const words = ["GRAPHIC DESIGNER", "SOFTWARE DEVELOPER", "DATA ANALYST"];
+            const typewriter = document.getElementById("typewriter");
+            let wordIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            const typingSpeed = 100;
+            const deletingSpeed = 60;
+            const delayBetweenWords = 1000;
+            function typeEffect() {
+                const currentWord = words[wordIndex];
+                const visibleText = currentWord.substring(0, charIndex);
+                typewriter.textContent = visibleText;
+                if (!isDeleting && charIndex < currentWord.length) {
+                    charIndex++;
+                    setTimeout(typeEffect, typingSpeed);
+                } else if (isDeleting && charIndex > 0) {
+                    charIndex--;
+                    setTimeout(typeEffect, deletingSpeed);
+                } else {
+                    isDeleting = !isDeleting;
+                    if (!isDeleting) {
+                        wordIndex = (wordIndex + 1) % words.length;
+                    }
+                    setTimeout(typeEffect, delayBetweenWords);
+                }
+            }
+            typeEffect();
+        });
+    </script>
+    <script>
+        const toggleButton = document.getElementById("mobileNavToggle");
+        const closeBtn = document.getElementById("closeBtn");
+        const sideNav = document.getElementById("sideNav");
+        const overlay = document.getElementById("mobileNavOverlay");
+        toggleButton.addEventListener("click", () => {
+            sideNav.style.display = "block";
+            overlay.style.display = "block";
+        });
+        closeBtn.addEventListener("click", () => {
+            sideNav.style.display = "none";
+            overlay.style.display = "none";
+        });
+        overlay.addEventListener("click", () => {
+            sideNav.style.display = "none";
+            overlay.style.display = "none";
+        });
+    </script>
+    <!-- End Template Main Get Started File-->
+
+      </div>
+    </div>
+</body>
+</html>
