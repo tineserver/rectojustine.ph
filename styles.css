@@ -24,9 +24,6 @@
   --hover-scale: 1.4;
 
 }
-.skill-img:focus {
-    outline: none;
-}
 
 *,
 *::before,
@@ -801,6 +798,8 @@ nav.scrolled {
   bottom: 20px; /* You can reduce this value if needed */
   right: 20px;
   outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .floating-btn:hover {
@@ -2310,6 +2309,7 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
+
 
 
 
