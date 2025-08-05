@@ -409,6 +409,8 @@ nav.scrolled {
 @media screen and (min-width: 768px) {
   .nav__menu__btn {
     display: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
 
   .nav__links {
@@ -2315,6 +2317,7 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
+
 
 
 
