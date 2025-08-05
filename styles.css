@@ -26,10 +26,12 @@
 }
 
 
-*{
-  -webkit-tap-highlight-color-:rgb(255, 255, 255, 0) !important;
-  -webkit-focus-ring-color:rgba(255, 255, 255, 0) !important;
+a:focus,
+a:active,
+*:focus {
   outline: none !important;
+  box-shadow: none !important;
+  -webkit-tap-highlight-color: transparent;
 }
 
 *,
@@ -2294,6 +2296,7 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
+
 
 
 
