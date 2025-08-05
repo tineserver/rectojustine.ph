@@ -1261,6 +1261,8 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: var(--image-gap);
+   -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Image Styling */
@@ -1271,6 +1273,8 @@ header {
     transition: transform 0.3s ease;
     transform-origin: center;
     cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .carousel img:hover {
@@ -1286,16 +1290,22 @@ header {
     font-size: var(--font-size);
     text-transform: uppercase;
     text-align: center;
+  -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Responsive Styles */
 @media (max-width: 768px) {
     .carousel img {
         width: calc(25% - var(--image-gap));
+      -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 
     .carousel .skill {
         width: calc(22% - var(--image-gap));
+      -webkit-tap-highlight-color: transparent;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
 }
 
@@ -2344,6 +2354,7 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
+
 
 
 
