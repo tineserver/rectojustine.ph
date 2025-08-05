@@ -24,6 +24,9 @@
   --hover-scale: 1.4;
 
 }
+.skill-img:focus {
+    outline: none;
+}
 
 *,
 *::before,
@@ -2307,6 +2310,7 @@ button[type="submit"]:focus {
 #contactModal {
   display: none;
 }
+
 
 
 
