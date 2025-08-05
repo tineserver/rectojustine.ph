@@ -36,19 +36,6 @@ select:focus {
   box-shadow: none;
 }
 
-/* Optionally, only remove outline for non-keyboard users */
-@media (pointer: coarse) {
-  a:focus,
-  button:focus,
-  input:focus,
-  textarea:focus,
-  select:focus {
-    outline: none;
-    box-shadow: none;
-  }
-}
-
-
 *,
 *::before,
 *::after {
@@ -2050,6 +2037,17 @@ textarea {
   }
 }
 
+/* Optionally, only remove outline for non-keyboard users */
+@media (pointer: coarse) {
+  a:focus,
+  button:focus,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
 
 /*--------------------------------------------------------------
 # Modal
