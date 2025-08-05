@@ -26,8 +26,11 @@
 }
 
 
-
-/* Potfolio Decoration*/
+*{
+  -webkit-tap-highlight-color-:rgb(255, 255, 255, 0) !important;
+  -webkit-focus-ring-color:rgba(255, 255, 255, 0) !important;
+  outline: none !important;
+}
 
 *,
 *::before,
@@ -2292,15 +2295,5 @@ button[type="submit"]:focus {
   display: none;
 }
 
-/* Remove focus outline on mobile devices for links, buttons, and form elements */
-@media (max-width: 600px) {
-  a:focus,
-  button:focus,
-  input:focus,
-  textarea:focus,
-  select:focus {
-    outline: none !important;
-    box-shadow: none !important;
-  }
-}
+
 
